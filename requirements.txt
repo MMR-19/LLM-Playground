@@ -1,0 +1,5 @@
+Flask>=2.2
+flask-socketio>=5.3
+python-dotenv>=1.0
+requests>=2.31
+litellm>=1.31.0
