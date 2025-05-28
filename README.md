@@ -29,7 +29,8 @@ pip install -r requirements.txt
 
 ### 3. Create an API key on OpenRouter.ai
 
-Sign in to https://openrouter.ai and navigate to keys (https://openrouter.ai/settings/keys). Then create an API key and copy it
+Sign in to https://openrouter.ai and navigate to keys at https://openrouter.ai/settings/keys
+Then create an API key and save it
 
 ### 4. Replace your API key on .env file
 
@@ -47,5 +48,11 @@ python app-llm.py
 
 This should open your browser automatically on http://localhost:5000
 
-PS: You can edit the app-llm.py file to customize web port, and more!
+### 6. (optional) Customize web port
+You can edit the app-llm.py file to customize web port, and more!
+
+```py
+if __name__ == "__main__":
+    port = 5000
+```
 
